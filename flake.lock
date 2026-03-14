@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "libebc-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1502360300,
+        "narHash": "sha256-deDxJIPPhSD4TQCu1ul7MuiSs6bnO336uOreV4MagZg=",
+        "owner": "Guardsquare",
+        "repo": "LibEBC",
+        "rev": "7013d70f48c615da9e8f0deedd163b823d2d3ddf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Guardsquare",
+        "ref": "1.2",
+        "repo": "LibEBC",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1773476965,
+        "narHash": "sha256-Laaj25PvGeoP5SPhMfMGxvWqM6ZjZ6LdUeEhP6b3czY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f82ce7af0b79ac154b12e27ed800aeb97413723c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "libebc-src": "libebc-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

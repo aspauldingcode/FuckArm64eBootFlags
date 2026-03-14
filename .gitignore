@@ -1,0 +1,13 @@
+arm64_runner
+mach/
+dyld
+*.a
+*.dylib
+rt_spawn
+DobbyX
+dobby.h
+result
+*.log
+*Patched
+*Patched/
+*Patched.app/

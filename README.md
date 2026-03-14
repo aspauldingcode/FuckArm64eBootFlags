@@ -61,8 +61,11 @@ nix run . -- -l               # List current blacklist
 ## Why `--impure`?
 Required for `test` or bundle patching to copy system apps from `/System`.
 
-## Credits
-- **Alex Spaulding** (@aspauldingcode)
+## Credit/Thanks
+- **Alex Spaulding** (@aspauldingcode) - Developer
+- [Reductant](https://github.com/SongXiaoXi/Reductant) (by [SongXiaoXi](https://github.com/SongXiaoXi)) - Inspiration. FuckArm64eBootFlags started as a fork of Reductant but quickly became its own thing.
+- [libEBC developers](https://www.highcaffeinecontent.com/blog/20190518-Translating-an-ARM-iOS-App-to-Intel-macOS-Using-Bitcode) (Article on translating ARM iOS Apps)
+- [libebc ebcutil](https://github.com/Guardsquare/LibEBC) (LibEBC by Guardsquare)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. This project depends on LibEBC, which is licensed under the Apache License 2.0.
